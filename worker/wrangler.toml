@@ -1,0 +1,7 @@
+name = "wechat-md-fetcher"
+main = "wechat-fetcher.js"
+compatibility_date = "2026-05-06"
+workers_dev = true
+
+[vars]
+ALLOWED_ORIGINS = "*"

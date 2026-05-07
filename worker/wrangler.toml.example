@@ -1,0 +1,13 @@
+name = "wechat-md-fetcher"
+main = "wechat-fetcher.js"
+compatibility_date = "2026-05-06"
+workers_dev = true
+
+[vars]
+ALLOWED_ORIGINS = "*"
+# Set a real value in Cloudflare dashboard or with:
+# npx wrangler secret put PRIVATE_ACCESS_KEY
+
+# Deploy:
+# cd worker
+# npx wrangler deploy
